@@ -18,13 +18,19 @@ while not url.endswith("#"):
 	comic_element = soup.select('#comic img')
 	if comic_element == []:
 		print("No comic image found!!..")
-	else
+	else:
 		comic_image_url = comic_element[0].get('scr')
 		# download the image
 		print("Downloading the imgae %s .. " %(comic_image_url))
 		res = requests.get(comic_image_url)
 		res.raise_for_status()
 
-	# TODO: Save the image to ./xkcd.
+	# Save the image to ./xkcd.
+	file = os.open(os.join('xkcd',os.path.basename(comic_image_url)) , 'wb')
+	for chunck in res.iter_content(10000):
+		file.write(chunck)
+	file.close()
+
+	
 	# TODO: Get the Prev button's url.
 print("Done")

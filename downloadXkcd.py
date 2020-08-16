@@ -20,7 +20,11 @@ while not url.endswith("#"):
 		print("No comic image found!!..")
 	else
 		comic_image_url = comic_element[0].get('scr')
-		# TODO: download the image
+		# download the image
+		print("Downloading the imgae %s .. " %(comic_image_url))
+		res = requests.get(comic_image_url)
+		res.raise_for_status()
+
 	# TODO: Save the image to ./xkcd.
 	# TODO: Get the Prev button's url.
 print("Done")

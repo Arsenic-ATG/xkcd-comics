@@ -25,6 +25,10 @@ XKCD is a popular geek webcomic with a website full of interesting comics. The f
 - 👯‍♂️clone/download using ```git@github.com:Arsenic-ATG/xkcd-comics.git```
 - run the python script
 
+### Want to contribue ? 🤩
+- your contribution are most welcomed here.
+- if your are a beginner or you want to contribute to documentation instead of code, then you should check out this [issue](https://github.com/Arsenic-ATG/xkcd-comics/issues/3)
+
 ### Liked it ? 😃
 - if you like this project then don't forget to give a star ⭐️
 - For more cool automations like this you can head over to my [python automations](https://github.com/Arsenic-ATG/Python-Automations) repo

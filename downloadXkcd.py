@@ -31,6 +31,8 @@ while not url.endswith("#"):
 		file.write(chunck)
 	file.close()
 
+	# Get the Prev button's url.
+	prev_link = soup.select('a[rel="prev"]')[0]
+	url = 'http://xkcd.com' + prev_link.get('href')
 	
-	# TODO: Get the Prev button's url.
 print("Done")

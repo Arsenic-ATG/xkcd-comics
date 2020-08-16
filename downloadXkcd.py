@@ -12,8 +12,15 @@ while not url.endswith("#"):
 	res = requests.get(url)
 	res.raise_for_status()
 
-	
-	# TODO: Find the URL of the comic image. # TODO: Download the image.
+	soup = bs4.BeautifulSoup(res,'lxml')
+
+	# Find the URL of the comic image.
+	comic_element = soup.select('#comic img')
+	if comic_element == []:
+		print("No comic image found!!..")
+	else
+		comic_image_url = comic_element[0].get('scr')
+		# TODO: download the image
 	# TODO: Save the image to ./xkcd.
 	# TODO: Get the Prev button's url.
 print("Done")

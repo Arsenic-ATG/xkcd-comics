@@ -1,6 +1,8 @@
 # xkcd-comics
 XKCD is a popular geek webcomic with a website full of interesting comics. The front page at http://xkcd.com/ has a Prev button that guides the user back through prior comics. Downloading each comic by hand would take forever,but with this script it will matter of minutes.
 
+### Some sample comic:
+![Dependencies](https://github.com/Arsenic-ATG/xkcd-comics/blob/master/samples/sample%20comic%20-%201.png)
 ## Language used
 - 🐍 python
 

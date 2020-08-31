@@ -7,8 +7,8 @@ XKCD is a popular geek webcomic with a website full of interesting comics. The f
 - 🐍 python
 
 ### Setup required 🛠
-- most of the stuff is plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
-- if you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
+- Most of the stuff is plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
+- If you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
 
 ---
 
@@ -17,21 +17,21 @@ XKCD is a popular geek webcomic with a website full of interesting comics. The f
 - _requests_
 
 #### But how do I install additonal packages? 🤨
-1. make sure you have python package manager (**pip**) installed on your system
-2. go to command line and type ```pip install <library name>``` { _pip3_ on mac }
-3. for detailed information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
+1. Make sure you have python package manager (**pip**) installed on your system
+2. Go to command line and type ```pip install <library name>``` { _pip3_ on mac }
+3. For detailed information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
 
 ---
 
 ## 🏃‍♀️Get it running🏃‍♂️
 - 👯‍♂️clone/download using ```git@github.com:Arsenic-ATG/xkcd-comics.git```
-- run the python script
+- Run the python script
 
 ### Want to contribue ? 🤩
-- your contribution are most welcomed here.
-- if your are a beginner or you want to contribute to documentation instead of code, then you should check out this [issue](https://github.com/Arsenic-ATG/xkcd-comics/issues/3)
+- Your contribution are most welcomed here.
+- If your are a beginner or you want to contribute to documentation instead of code, then you should check out this [issue](https://github.com/Arsenic-ATG/xkcd-comics/issues/3)
 
 ### Liked it ? 😃
-- if you like this project then don't forget to give a star ⭐️
+- If you like this project then don't forget to give a star ⭐️
 - For more cool automations like this you can head over to my [python automations](https://github.com/Arsenic-ATG/Python-Automations) repo
 

@@ -4,7 +4,7 @@
 
 import requests, os, bs4
 url = 'http://xkcd.com' 		# starting url
-os.makedirs('xkcd',exist_ok = True)		# create a file to place all the downloads
+os.makedirs('xkcd',exist_ok = True)		# create a directory to store all the downloads
 
 while not url.endswith("#"):
 	# Download the page.

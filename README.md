@@ -36,3 +36,8 @@ package manager (**pip**) installed on your system
 - If you like this project then don't forget to give a star ⭐️
 - For more cool automations like this, you can head over to my [Python automations](https://github.com/Arsenic-ATG/Python-Automations) repo
 
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**

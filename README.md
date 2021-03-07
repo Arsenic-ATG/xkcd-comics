@@ -30,7 +30,7 @@ package manager (**pip**) installed on your system
 
 ### Want to contribue ? 🤩
 - Your contributions are most welcomed here.
-- If your are a beginner or you want to contribute to documentation instead of code, then you should check out this [issue](https://github.com/Arsenic-ATG/xkcd-comics/issues/3)
+- If your are a beginner or you want to contribute to documentation instead of code, then you should check out [this issue](https://github.com/Arsenic-ATG/xkcd-comics/issues/3)
 
 ### Liked it ? 😃
 - If you like this project then don't forget to give a star ⭐️

@@ -13,13 +13,12 @@ XKCD is a popular geek webcomic with a website full of interesting comics. The f
 ---
 
 ### Additional Python libraries required for this project
-- _beautifulsoup4_
-- _requests_
+`python3 -m pip install -r requirements.txt`
 
 #### But how do I install additional packages? 🤨
 1. Make sure you have 
 package manager (**pip**) installed on your system
-2. Go to command line and type ```pip install <library name>``` { _pip3_ on mac }
+2. Go to command line and type `python3 -m pip install -r requirements.txt`
 3. For detailed information see [Python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
 
 ---

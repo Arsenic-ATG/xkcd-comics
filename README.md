@@ -13,8 +13,7 @@ XKCD is a popular geek webcomic with a website full of interesting comics. The f
 ---
 
 ### Additional Python libraries required for this project
-- _beautifulsoup4_
-- _requests_
+`pip install -r requirements.txt`
 
 #### But how do I install additonal packages? 🤨
 1. Make sure you have 

@@ -16,7 +16,7 @@ XKCD is a popular geek webcomic with a website full of interesting comics. The f
 - _beautifulsoup4_
 - _requests_
 
-#### But how do I install additonal packages? 🤨
+#### But how do I install additional packages? 🤨
 1. Make sure you have 
 package manager (**pip**) installed on your system
 2. Go to command line and type ```pip install <library name>``` { _pip3_ on mac }

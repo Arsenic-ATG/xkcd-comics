@@ -11,7 +11,10 @@ while not url.endswith("#"):
 	print("Downloading the page ... ")
 	res = requests.get(url)
 	res.raise_for_status()
-	soup = bs4.BeautifulSoup(res.text,'lxml')
+	try:
+		soup = bs4.BeautifulSoup(res.text,'lxml')
+	except bs4.FeatureNotFound:  # lxml is not installed
+		soup = bs4.BeautifulSoup(res.text,'html.parser')
 
 	# Find the URL of the comic image.
 	comic_element = soup.select('#comic img')

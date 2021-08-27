@@ -1,5 +1,5 @@
 # xkcd-comics
-XKCD is a popular geek webcomic with a website full of interesting comics. The front page at http://xkcd.com/ has 'prev' and 'next' buttons that guide the user back and forth through the comics. Downloading each comic manually would take forever, but with this script it will take only a matter of minutes.
+XKCD is a popular geek webcomic with a website full of interesting comics. The front page at http://xkcd.com/ has 'prev' and 'next' buttons that guide the user back and forth through the comics. Downloading each comic manually would take forever, but with this script it's just a matter of seconds ( depending on your internet speed ).
 
 ### Some sample comic:
 ![Dependencies](https://github.com/Arsenic-ATG/xkcd-comics/blob/master/samples/sample%20comic%20-%201.png)
